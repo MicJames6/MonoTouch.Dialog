@@ -17,7 +17,7 @@ namespace MonoTouch.Dialog
 	/// <summary>
 	/// Twin button elemet.
 	/// </summary>
-	public class TwinButtonElemet : Element
+	public class TwinButtonElement : Element
 	{
 		const string ElementKey = "TwinElementKey";
 		UIButton rightButton;
@@ -32,7 +32,7 @@ namespace MonoTouch.Dialog
 		/// <param name="leftButtonTitle">Left button title.</param>
 		/// <param name="rightButtonTitle">Right button title.</param>
 		/// <param name="tapped">Twin button tapped handler </param>
-		public TwinButtonElemet (string leftButtonTitle, string rightButtonTitle, Action<TwinButton> tapped):base("Twin Button Element")
+		public TwinButtonElement (string leftButtonTitle, string rightButtonTitle, Action<TwinButton> tapped):base("Twin Button Element")
 		{
 			this.leftButtonTitle = leftButtonTitle;
 			this.rightButtonTitle = rightButtonTitle;

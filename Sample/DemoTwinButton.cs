@@ -19,10 +19,10 @@ namespace Sample
 					new StringElement("email", "pvc@outlook.com")
 				},
 				new Section(){
-					new TwinButtonElemet("Send Message", "FaceTime", Tapped),
+					new TwinButtonElement("Send Message", "FaceTime", Tapped),
 				},
 				new Section(){
-					new TwinButtonElemet("Share Contact", "Add to Favourites", Tapped)
+					new TwinButtonElement("Share Contact", "Add to Favourites", Tapped)
 				}
 			};
 
